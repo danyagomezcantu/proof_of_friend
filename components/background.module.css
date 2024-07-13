@@ -1,0 +1,91 @@
+.betOnA {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  line-height: 98px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.betOnAFriendWrapper {
+  position: absolute;
+  top: 154px;
+  left: 57px;
+  width: 926px;
+  height: 106px;
+}
+.discordUsernameOptional,
+.telegramUsernameOptional,
+.twitterUsernameOptional {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.discordUsernameOptional,
+.twitterUsernameOptional {
+  top: 66px;
+}
+.discordUsernameOptional {
+  top: 132px;
+}
+.frameChild,
+.telegramUsernameOptionalParent {
+  position: absolute;
+  top: 19px;
+  left: 1128px;
+  width: 714px;
+  height: 188px;
+}
+.frameChild {
+  top: 26px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+  width: 738px;
+  height: 105px;
+}
+.goToBet,
+.rectangleParent {
+  position: absolute;
+  height: 158px;
+}
+.goToBet {
+  top: 0;
+  left: 180px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 378px;
+}
+.rectangleParent {
+  top: 207px;
+  left: 1128px;
+  width: 738px;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--color-black);
+}
+.background {
+  position: absolute;
+  top: calc(50% - 192px);
+  left: calc(50% - 959px);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 254, 255, 0),
+    rgba(10, 254, 255, 0) 8.5%,
+    rgba(10, 149, 150, 0.2) 19%,
+    rgba(29, 98, 94, 0.5) 39%,
+    rgba(28, 69, 71, 0.71) 55%,
+    #0c0a07
+  );
+  width: 1919px;
+  height: 384px;
+  text-align: left;
+  font-size: var(--font-size-105xl);
+  color: var(--color-white);
+  font-family: var(--font-uchen);
+}

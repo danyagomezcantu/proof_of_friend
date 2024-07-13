@@ -201,7 +201,7 @@
   width: 773px;
   height: 127px;
   cursor: pointer;
-  font-size: 55.7px;
+  font-size: var(--font-size-36xl-7);
   color: var(--color-black);
 }
 .background {

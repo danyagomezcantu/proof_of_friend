@@ -1,0 +1,31 @@
+.frameChild {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 622px;
+  height: 100px;
+}
+.div,
+.iWantTo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 95px;
+}
+.div {
+  top: 135px;
+  left: 519px;
+  color: var(--color-black);
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 622px;
+  height: 230px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-nova-cut);
+}
