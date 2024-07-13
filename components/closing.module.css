@@ -1,0 +1,35 @@
+.proofOfFriend {
+  position: absolute;
+  top: 202px;
+  left: calc(50% - 98.35px);
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 196px;
+  height: 28px;
+}
+.proofOfFriend1 {
+  font-family: var(--font-uchen);
+}
+.takeAChanceContainer {
+  position: absolute;
+  top: 44.5px;
+  left: 149.5px;
+  font-size: var(--font-size-29xl);
+  line-height: 44px;
+  color: var(--color-white);
+  font-family: var(--font-nova-cut);
+}
+.closing {
+  position: absolute;
+  top: 2475px;
+  left: calc(50% - 530px);
+  width: 1060.7px;
+  height: 298.5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base-7);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

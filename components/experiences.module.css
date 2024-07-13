@@ -1,0 +1,166 @@
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+  width: 360px;
+  height: 290px;
+}
+.be,
+.creative {
+  margin: 0;
+}
+.beCreativeTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.beCreative {
+  position: absolute;
+  top: 66px;
+  left: 36px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  width: 287px;
+  height: 158px;
+}
+.div,
+.item {
+  position: absolute;
+  border-radius: var(--br-xl);
+  width: 360px;
+  height: 290px;
+}
+.div {
+  top: 418px;
+  left: 421px;
+  background-color: var(--color-white);
+}
+.item {
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+}
+.getActiveAnd {
+  position: absolute;
+  top: 66px;
+  left: 36px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px;
+  height: 158px;
+}
+.div1,
+.inner {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 360px;
+  height: 290px;
+}
+.div1 {
+  top: 418px;
+  background-color: var(--color-white);
+}
+.inner {
+  top: 0;
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+}
+.enjoyNewNightlife {
+  position: absolute;
+  top: 66px;
+  left: 36px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px;
+  height: 158px;
+}
+.div2,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-xl);
+  width: 360px;
+  height: 290px;
+}
+.div2 {
+  left: 421px;
+  background-color: var(--color-white);
+}
+.rectangleDiv {
+  left: 0;
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+}
+.relaxAndUnwind {
+  position: absolute;
+  top: 66px;
+  left: 36px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px;
+  height: 158px;
+}
+.curated,
+.div3,
+.randomIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div3 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 360px;
+  height: 290px;
+}
+.curated,
+.randomIcon {
+  height: 707px;
+}
+.curated {
+  width: 781px;
+  overflow: hidden;
+}
+.randomIcon {
+  border-radius: var(--br-21xl);
+  width: 777px;
+}
+.beSurprised {
+  position: absolute;
+  top: 215px;
+  left: 218px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+}
+.random {
+  position: absolute;
+  top: 0;
+  left: 846px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 777px;
+  height: 707px;
+  font-size: var(--font-size-45xl);
+}
+.experiences {
+  position: absolute;
+  top: 1443px;
+  left: calc(50% - 802px);
+  width: 1623px;
+  height: 778px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-uchen);
+}

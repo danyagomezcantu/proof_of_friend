@@ -1,0 +1,239 @@
+.proofOfFriend {
+  position: absolute;
+  top: 202px;
+  left: calc(50% - 107.35px);
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 215px;
+  height: 28px;
+}
+.proofOfFriend1 {
+  font-family: var(--font-uchen);
+}
+.takeAChanceContainer {
+  position: absolute;
+  top: 44.5px;
+  left: 149.5px;
+  font-size: var(--font-size-29xl);
+  line-height: 44px;
+  color: var(--color-white);
+  font-family: var(--font-nova-cut);
+}
+.closing {
+  position: absolute;
+  top: 2590px;
+  left: calc(50% - 530px);
+  width: 1060.7px;
+  height: 298.5px;
+  cursor: pointer;
+}
+.blankLine,
+.brussels,
+.thisUserWants {
+  margin: 0;
+}
+.brusselsThisUserContainer1 {
+  width: 100%;
+}
+.brusselsThisUserContainer {
+  position: absolute;
+  top: -119px;
+  left: 0;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  width: 615px;
+  height: 169px;
+}
+.welcome {
+  position: absolute;
+  top: 342px;
+  left: 158px;
+  width: 893px;
+  height: 285px;
+}
+.headingChild {
+  position: absolute;
+  top: 1030px;
+  left: calc(50% - 44.3px);
+  width: 88.3px;
+  height: 0;
+  object-fit: contain;
+}
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #fff, #fff 80%, #0afeff);
+  width: 738px;
+  height: 105px;
+}
+.attendEvent {
+  position: absolute;
+  top: -26px;
+  left: 180px;
+  line-height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 378px;
+  height: 158px;
+}
+.div {
+  position: absolute;
+  top: 256px;
+  left: 1123px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 738px;
+  height: 105px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--color-black);
+}
+.headingItem {
+  position: absolute;
+  top: 821px;
+  left: calc(50% - 519px);
+  background-color: var(--color-gainsboro);
+  width: 1039px;
+  height: 1390px;
+}
+.background,
+.heading {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.heading {
+  height: 1641px;
+  text-align: left;
+  font-size: var(--font-size-24xl-7);
+  color: var(--color-white);
+  font-family: var(--font-uchen);
+}
+.background {
+  background-color: var(--color-gray-200);
+  height: 2929px;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.proofOfFriend2 {
+  position: absolute;
+  top: calc(50% - 69.95px);
+  left: calc(50% - 268px);
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 537px;
+  height: 140px;
+  cursor: pointer;
+}
+.danyagomezcantueth {
+  position: absolute;
+  top: -15px;
+  left: 1442px;
+  line-height: 95px;
+}
+.banner,
+.banner1 {
+  top: 0;
+  width: 1920px;
+  height: 79.9px;
+}
+.banner1 {
+  position: absolute;
+  left: calc(50% - 959px);
+  text-align: left;
+  font-size: var(--font-size-26xl);
+}
+.banner {
+  left: calc(50% - 960px);
+}
+.banner,
+.home,
+.link {
+  position: absolute;
+}
+.home {
+  top: 20px;
+  left: 0;
+  text-decoration: underline;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 58.8px;
+  height: 28px;
+}
+.link {
+  top: calc(50% - 33.85px);
+  left: 40px;
+  width: 58.6px;
+  height: 68px;
+}
+.navigation {
+  position: absolute;
+  height: 99.03%;
+  width: 43.22%;
+  top: 0.97%;
+  right: 50.61%;
+  bottom: 0;
+  left: 6.17%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-inter);
+}
+.heading1 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1920px;
+  height: 82.3px;
+  font-size: var(--font-size-49xl-8);
+}
+.profile1 {
+  position: relative;
+  line-height: 98px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.background1 {
+  position: absolute;
+  top: calc(50% - 240px);
+  left: calc(50% - 959px);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 254, 255, 0),
+    rgba(10, 254, 255, 0) 8.5%,
+    rgba(10, 149, 150, 0.2) 19%,
+    rgba(29, 98, 94, 0.5) 39%,
+    rgba(28, 69, 71, 0.71) 55%,
+    #0c0a07
+  );
+  width: 1920px;
+  height: 509px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-46xl) var(--padding-715xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-105xl);
+}
+.profile {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#0f0907, #0f0907), #fff;
+  height: 1224px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-base-7);
+  color: var(--color-white);
+  font-family: var(--font-uchen);
+}

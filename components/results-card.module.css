@@ -1,0 +1,77 @@
+.brussels {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.link,
+.selectCity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectCity {
+  width: 195px;
+  position: relative;
+  line-height: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.link {
+  box-shadow: 1px -1px 5px rgba(255, 255, 255, 0.4) inset;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(180deg, transparent 80%, #0afeff), #fff;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-6xl-7);
+  color: var(--color-black);
+  font-family: var(--font-nova-cut);
+}
+.section,
+.section1 {
+  width: 507.1px;
+  height: 37px;
+}
+.section1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 253.55px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.section {
+  position: relative;
+}
+.resultsCard,
+.resultsDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.resultsDetails {
+  width: 561.9px;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-41xl);
+  box-sizing: border-box;
+}
+.resultsCard {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 420px) {
+  .resultsDetails {
+    width: 100%;
+    padding: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .resultsCard {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,92 @@
+.connectWallet {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 98px);
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 44px;
+}
+.link {
+  position: absolute;
+  width: calc(100% - 1620px);
+  top: 0;
+  right: 150px;
+  left: 1470px;
+  box-shadow: 1px -1px 5px rgba(255, 255, 255, 0.4) inset;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(180deg, transparent 80%, #0afeff), #fff;
+  height: 74px;
+  cursor: pointer;
+}
+.proofOfFriend {
+  top: calc(50% - 69.95px);
+  left: calc(50% - 268px);
+  font-size: var(--font-size-49xl-8);
+  line-height: 28px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 537px;
+  height: 140px;
+}
+.banner,
+.home,
+.proofOfFriend {
+  position: absolute;
+}
+.banner {
+  top: 0;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 79.9px;
+}
+.home {
+  top: 20px;
+  left: 0;
+  text-decoration: underline;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 58.8px;
+  height: 28px;
+}
+.link1,
+.link2 {
+  position: absolute;
+  top: calc(50% - 33.85px);
+  left: 40px;
+  width: 58.6px;
+  height: 68px;
+}
+.link2 {
+  left: 317px;
+  width: 115.9px;
+}
+.navigation {
+  position: absolute;
+  height: 99.03%;
+  width: 43.22%;
+  top: 0.97%;
+  right: 50.61%;
+  bottom: 0;
+  left: 6.17%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.heading {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1920px;
+  height: 82.3px;
+  text-align: center;
+  font-size: var(--font-size-6xl-7);
+  color: var(--color-black);
+  font-family: var(--font-uchen);
+}
