@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-xl);
-  background: linear-gradient(180deg, #fff 50%, #fff 50%, #0afeff 50%);
+  background: linear-gradient(180deg, #d9d9d9);
   width: 360px;
   height: 290px;
 }
@@ -40,7 +40,7 @@
 .item {
   top: 0;
   left: 0;
-  background: linear-gradient(180deg, #fff 50%, #fff 50%, #0afeff 50%);
+  background: linear-gradient(180deg, #d9d9d9);
 }
 .getActiveAnd {
   position: absolute;
@@ -67,7 +67,7 @@
 }
 .inner {
   top: 0;
-  background: linear-gradient(180deg, #fff 50%, #fff 50%, #0afeff 50%);
+  background: linear-gradient(180deg, #d9d9d9);
 }
 .enjoyNewNightlife {
   position: absolute;
@@ -94,7 +94,7 @@
 }
 .rectangleDiv {
   left: 0;
-  background: linear-gradient(180deg, #fff 50%, #fff 50%, #0afeff 50%);
+  background: linear-gradient(180deg, #d9d9d9);
 }
 .relaxAndUnwind {
   position: absolute;
