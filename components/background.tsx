@@ -46,7 +46,12 @@ const Background: NextPage<BackgroundType> = ({ className = "" }) => {
       </div>
       <div className={styles.rectangleParent}>
         <div className={styles.frameChild} />
-        <div className={styles.goToBet}>Go to bet!</div>
+        <a 
+          className={styles.goToBet}
+          href="https://proof-of-friends-three.vercel.app/"
+        >
+          Go to bet!
+        </a>
       </div>
     </div>
   );

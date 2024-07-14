@@ -11,29 +11,25 @@ const Heading: NextPage<HeadingType> = ({ className = "" }) => {
   const router = useRouter();
 
   const onLinkContainerClick = useCallback(() => {
-    router.push("https://proof-of-friends-three.vercel.app/");
+    router.push("/confirm-e-n-s-input-location-an");
   }, [router]);
 
   return (
     <div className={[styles.heading, className].join(" ")}>
       <div className={styles.banner}>
-        <a 
-          className={styles.link} 
-          href="https://proof-of-friends-three.vercel.app/"
-        >
+        <div className={styles.link} onClick={onLinkContainerClick}>
           <div className={styles.connectWallet}>Connect Wallet</div>
-        </a>
-        <div className={styles.proofOfFriend}>Proof of Friend</div>
-        <div className={styles.navigation}>
-          <div className={styles.link1}>
-            <div className={styles.home}>Home</div>
-          </div>
-          <div className={styles.link2}></div>
         </div>
+        <div className={styles.proofOfFriend}>Proof of Friend</div>
+      </div>
+      <div className={styles.navigation}>
+        <div className={styles.link1}>
+          <div className={styles.home}>Home</div>
+        </div>
+        <div className={styles.link2} />
       </div>
     </div>
   );
 };
 
 export default Heading;
-
